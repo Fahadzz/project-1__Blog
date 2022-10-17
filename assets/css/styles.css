@@ -1,0 +1,196 @@
+/* Navigation */
+
+.logo img {
+  width: 6.4rem;
+
+  position: absolute;
+  left: -0.5rem;
+  top: 1rem;
+}
+
+.nav__main {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  position: fixed;
+  left: 0.5rem;
+  bottom: 50%;
+  z-index: 9999;
+}
+.nav-link:link,
+.nav-link:visited {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50px;
+  background-color: #f1f1f1;
+  color: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #f1f1f1;
+  background-color: #343a40;
+}
+
+.icon {
+  font-size: 2.8rem;
+}
+
+/* layout */
+
+.custom__grid {
+  display: grid;
+  row-gap: 3rem;
+}
+
+/* Post Cards */
+.cards {
+  display: grid;
+  grid-template-rows: 30fr auto;
+  position: relative;
+  width: 80vw;
+  background-color: #ededed;
+  padding-bottom: 4rem;
+  margin: 6rem auto 0;
+  box-shadow: 0.8 0.8 2rem rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+
+  /* margin-top: 6rem; */
+  /* row-gap: 1rem; */
+}
+
+.card__img img {
+  padding: 5px;
+  width: 100%;
+  height: 24rem;
+}
+
+.card__text {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.tags__box {
+  width: fit-content;
+  height: 2.5rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags__box--investment {
+  background-color: #69db7c;
+}
+.tags__box--life {
+  background-color: #4dabf7;
+  color: #edf2ff;
+}
+.tags__box--improvement {
+  background-color: #748ffc;
+  color: #edf2ff;
+}
+
+.btn:link,
+.btn:visited {
+  /* positioning the btn on the card */
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  /* positioning the text in the btn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* configuring width and height */
+  width: 20rem;
+  height: 5rem;
+  /* configuring btn aesthetic */
+  border: none;
+  cursor: pointer;
+  box-shadow: 0.8rem 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  /* Typography */
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2a2e33;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.btn:hover,
+.btn:active {
+  color: #343a40;
+  background-color: #c2c4c6;
+}
+
+.footer {
+  margin-top: 20rem;
+  background-color: #ccc;
+  /* width: 100%; */
+  height: 40rem;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  justify-content: center;
+}
+.author {
+  margin: 3rem 7rem 0 0;
+  display: flex;
+  gap: 1rem;
+}
+.avatar {
+  font-size: 6.2rem;
+}
+
+.footer .tags {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.newsletter__form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.newsletter__form input {
+  width: 100%;
+  height: 3rem;
+}
+
+.submit-btn {
+  width: fit-content;
+  padding: 0 1rem;
+  height: 3rem;
+  outline: none;
+}

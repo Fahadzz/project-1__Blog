@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Udasity blog project" />
+    <title>U-Blog</title>
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <!-- <link rel="stylesheet" href="assets/css/styles.css" /> -->
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="logo"
+        ><img src="assets/imgs/Logo.png" alt=""
+      /></a>
+      <ul class="nav__main">
+        <li>
+          <a href="index.html" class="nav-link">
+            <ion-icon name="home-outline" class="icon"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <!--  -->
+          <a href="#" class="nav-link">
+            <ion-icon name="mail-outline" class="icon"></ion-icon>
+          </a>
+          <!--  -->
+        </li>
+      </ul>
+    </nav>
+    <div class="custom__grid">
+      <!-- Post-1  -->
+      <div class="cards">
+        <div class="card__img">
+          <img src="assets/imgs/2.1.jpg" alt="image of a beautiful house" />
+        </div>
+
+        <div class="card__text">
+          <h3 class="heading__secondary text--center padding--sm">
+            your dream your choice
+          </h3>
+          <p class="paragraph text--center padding--sm">
+            have you ever dreamt of owning a house? A car? Lots of money?...
+          </p>
+          <div class="tags">
+            <div class="tags__box tags__box--improvement">
+              <p>Self-Improvement</p>
+            </div>
+            <div class="tags__box tags__box--life"><p>Life</p></div>
+          </div>
+        </div>
+
+        <div class="">
+          <a href="posts/post-1.html" class="btn">Continue reading</a>
+        </div>
+      </div>
+      <!-- Post-2  -->
+      <div class="cards">
+        <div class="card__img">
+          <img
+            src="assets/imgs/1.1.jpg"
+            alt="image that represent grows in investments"
+          />
+        </div>
+        <div class="card__text">
+          <h3 class="heading__secondary text--center padding--sm">
+            Is it late to invest?
+          </h3>
+          <p class="paragraph text--center padding--sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <div class="tags">
+            <div class="tags__box tags__box--investment"><p>Investment</p></div>
+          </div>
+        </div>
+
+        <div class="">
+          <a href="#" class="btn">Continue reading</a>
+        </div>
+      </div>
+
+      <!-- Post-3  -->
+      <div class="cards">
+        <div class="card__img">
+          <img
+            src="assets/imgs/3.1.jpg"
+            alt="image of two coins for ethereum and bitcoin togather with a trading chart behind them"
+          />
+        </div>
+        <div class="card__text">
+          <h3 class="heading__secondary text--center padding--sm">
+            Cryptocurrency between reiality and dreams?
+          </h3>
+          <p class="paragraph text--center padding--sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <div class="tags">
+            <div class="tags__box tags__box--investment"><p>Investment</p></div>
+            <div class="tags__box tags__box--life">
+              <p>Life</p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <a href="#" class="btn">Continue reading</a>
+        </div>
+      </div>
+
+      <!-- end of grid -->
+    </div>
+    <footer class="footer">
+      <div class="author">
+        <div class="avatar">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </div>
+        <div class="data text--center">
+          <p class="heading__tertiary">Fahad</p>
+          <p class="paragraph">Author at U-blog</p>
+        </div>
+      </div>
+      <!-- TODO: Make the tags useable as links and make pages for each one -->
+      <div class="tags">
+        <p class="heading__secondary">Tags:</p>
+        <div class="tags__box tags__box--improvement">
+          <p>Self-Improvement</p>
+        </div>
+        <div class="tags__box tags__box--life"><p>Life</p></div>
+        <div class="tags__box tags__box--investment"><p>Investment</p></div>
+      </div>
+      <div class="newsletter">
+        <p class="heading__tertiary text--center">Join our newsletter</p>
+        <form action="" class="newsletter__form">
+          <input type="email" name="email" placeholder="John@doe.com" />
+          <button class="submit-btn">Subscribe</button>
+        </form>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
